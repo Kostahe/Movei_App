@@ -73,4 +73,9 @@ dependencies {
     val hiltVersion = "2.48"
     implementation("com.google.dagger:hilt-android:$hiltVersion")
     ksp("com.google.dagger:hilt-android-compiler:$hiltVersion")
+
+
+    // Navigation (Compose destinations)
+    implementation("io.github.raamcosta.compose-destinations:core:1.9.50.")
+    ksp("io.github.raamcosta.compose-destinations:ksp:1.9.50.")
 }
